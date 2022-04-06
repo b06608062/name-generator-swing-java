@@ -20,7 +20,7 @@ public class NameGenerator {
 	}
 	
 	private int randomNumber() {
-		int n = (int)((float)Math.random() * (float)this.name_list.size());
+		int n = (int)((float)Math.random() * (float)name_list.size());
 		return n;
 	}
 	
