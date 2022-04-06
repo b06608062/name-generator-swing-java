@@ -22,7 +22,7 @@ public class Write {
 					"无泣之魂", "帝王傲世", "血战狂龙", "嗜月", "冷酷的男子", "斩风御影", "血屠杀手", "梦战苍穹", "裂风狂龙", "疯狂魔龙",
 					"灭神轰仙", "恋之狂战", "逍遥战狂", "独霸天下"};
 			int idx = 0;
-			for(String element : name) {
+			for (String element : name) {
 				sb.append(idx++ + "," + element + "\n");
 			}
 			writer.write(sb.toString());
